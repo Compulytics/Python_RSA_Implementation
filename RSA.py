@@ -43,8 +43,5 @@ def KEYGEN():
 	Key_D = (Oldi % Key_PhiN)#Final calculation of d.
 	return (Key_N, Key_E, Key_D)#Return values to be used as private and public keys.
 def MAIN():
-	Plain_Text = "Hello World"#Plain text.
-	Bytes_Plain_Text = str.encode(Plain_Text)#Plain text converted to bytes.
-	Int_Plain_Text = int(Bytes_Plain_Text.encode('hex'), 16)#Plain text converted to Integer for printing.
 	Key_N, Key_E, Key_D = KEYGEN()#Generate RSA keys.
 MAIN()
