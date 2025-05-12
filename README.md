@@ -1,6 +1,7 @@
 #RSA From Scratch (No Crypto Libraries)
 
 This project implements RSA public-key cryptography **from scratch** in Python, using byte-wise encryption, and manual modular inverse calculation.
+This is a resurrection of a project I started developing in 2015.
 
 ##Features
 
